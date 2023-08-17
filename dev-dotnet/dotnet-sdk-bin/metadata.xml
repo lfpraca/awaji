@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+
+<pkgmetadata>
+  <use>
+    <flag name="dotnet-common">
+	  Install files that are common among versions (e.g. dotnet binary).
+    </flag>
+  </use>
+  <upstream>
+    <doc>https://learn.microsoft.com/en-us/dotnet/</doc>
+	<bugs-to>https://github.com/dotnet/sdk/issues/</bugs-to>
+    <remote-id type="github">dotnet/sdk</remote-id>
+  </upstream>
+</pkgmetadata>
