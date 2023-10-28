@@ -23,7 +23,7 @@ arm64? (
 "
 
 SLOT="6.0"
-KEYWORDS="-* ~amd64 ~arm ~arm64"
+KEYWORDS="-* amd64 ~arm ~arm64"
 IUSE="+dotnet-common"
 QA_PREBUILT="*"
 RESTRICT+=" splitdebug"
