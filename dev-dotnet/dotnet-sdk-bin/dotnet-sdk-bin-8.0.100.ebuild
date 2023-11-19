@@ -32,8 +32,8 @@ RDEPEND="
 	dev-libs/icu
 	dev-util/lttng-ust:0/2.12
 	sys-libs/zlib:0/1
-	dotnet-common? ( !dev-dotnet/dotnet-sdk-bin:7.0[dotnet-common(+)] !dev-dotnet/dotnet-sdk-bin:8.0[dotnet-common(+)] )
-	!dotnet-common? ( || ( dev-dotnet/dotnet-sdk-bin:7.0[dotnet-common(+)] dev-dotnet/dotnet-sdk-bin:8.0[dotnet-common(+)] ) )
+	dotnet-common? ( !dev-dotnet/dotnet-sdk-bin:7.0[dotnet-common(+)] !dev-dotnet/dotnet-sdk-bin:6.0[dotnet-common(+)] )
+	!dotnet-common? ( || ( dev-dotnet/dotnet-sdk-bin:7.0[dotnet-common(+)] dev-dotnet/dotnet-sdk-bin:6.0[dotnet-common(+)] ) )
 "
 
 S=${WORKDIR}
